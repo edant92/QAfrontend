@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+	padding-right: 40px;
+}
+
+#header {
+    text-align: center;
+}
+
+.navicons {
+	text-align: center;
+}
+
+.product_images {
+	text-align: center;
+}
+
+.product_details {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: #FFFFFF;
+	padding: 32px;
+}
+
+.product_add_to_basket {
+	text-align: center;
+	padding: 32px;
+}
+
+.product_quantity {
+	color: #00cc99;
+}
